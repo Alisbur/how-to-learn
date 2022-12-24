@@ -9,8 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*-----------------------HEADER---------------------------------------*/
-
 .link {
   color: #2f80ed;
   text-decoration: none;
@@ -79,13 +77,9 @@
   z-index: 1;
 }
 
-/*------------------------CONTENT-------------------------------------*/
-
 .content {
   position: relative;
 }
-
-/*-----------------------DESCRIPTION------------------*/
 
 .description {
   padding-top: 100px;
@@ -93,8 +87,6 @@
   flex-direction: row;
   justify-content: center;
 }
-
-/*-----------------------TWO COLUMNS------------------*/
 
 .two-columns {
   width: 80%;
@@ -138,8 +130,6 @@
 .two-columns__paragraph_bold {
   font-weight: 600;
 }
-
-/*--------------------------DIGITS--------------------*/
 
 .digits {
   display: flex;
@@ -257,9 +247,6 @@
   font-weight: normal;
 }
 
-
-/*--------------------------FEYNMAN--------------------*/
-
 .feynman {
   background-color: #f2f2f2;
   height: 890px;
@@ -313,8 +300,6 @@
   right: 48px;
 }
 
-/*--------------------------KAUFMAN--------------------*/
-
 .kaufman {
   background-color: #1f1f1f;
   display: flex;
@@ -334,8 +319,6 @@
   top: 0px;
   right: -210px;
 }
-
-/*---------------------------FOOTER--------------------------------------*/
 
 .footer {
   background-color: #1f1f1f;
