@@ -161,6 +161,7 @@
 }
 
 .section-title_theme_light {
+  border: 1px solid red;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -295,7 +296,6 @@
 
 .feynman__title {
   border: 1px solid red;
-
   width: 648px;
   display: flex;
   text-align: center;
@@ -303,7 +303,7 @@
 }
 
 .feynman__title_fontstyle {
-  margin: 0px;
+  margin: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -329,7 +329,7 @@
 /*--------------------------KAUFMAN--------------------*/
 
 .kaufman {
-  border: 1px solid blue;
+  border: 1px solid yellow;
   background-color: #1f1f1f;
   display: flex;
   flex-direction: column;
@@ -338,6 +338,7 @@
   padding-bottom: 90px;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .kaufman__triangle {
@@ -351,3 +352,56 @@
 }
 
 /*---------------------------FOOTER--------------------------------------*/
+
+.footer {
+  border: 1px solid red;
+
+  background-color: #1f1f1f;
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.footer__columns {
+  border: 1px solid blue;
+  margin: 0px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  border: 1px solid red;
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer__column_content_info {
+  border: 1px solid red;
+
+}
+
+.footer__column_content_social {
+  border: 1px solid red;
+
+}
+
+.footer__author {
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
