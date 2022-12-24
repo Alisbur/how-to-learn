@@ -9,18 +9,141 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*-----------------------HEADER------------------*/
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display:flex;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
 }
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.header__title {
+  width: 730px;
+  position: absolute; /*?????????????????????????????????*/
+  left: 64px;
+  align-self: center;
+}
+
+.header__title_text {
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header__subtitle_text {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header_square-pic {
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+/*------------------------CONTENT---------------------*/
+
+/*-----------------------DESCRIPTION------------------*/
+
+.description {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*-----------------------TWO COLUMNS------------------*/
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__brief-h3 {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  padding-bottom: 0px;
+}
+
+.two-columns__paragraph_bold {
+  font-weight: 600;
+}
+
+/*--------------------------DIGITS--------------------*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -29,3 +152,7 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/*--------------------------FEYNMAN--------------------*/
+/*--------------------------KAUFMAN--------------------*/
+/*---------------------------FOOTER--------------------*/
