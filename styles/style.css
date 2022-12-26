@@ -14,7 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
-  display:flex;
+  display: flex;
   background-color: #f2f2f2;
 }
 
@@ -294,7 +294,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
 }
 
 .footer__columns {
@@ -309,6 +308,8 @@
   margin: 0;
   display: flex;
   flex-direction: column;
+
+  position: relative;
 }
 
 .footer__column_content_copyright {
@@ -365,4 +366,11 @@
   width: 16px;
   height: 16px;
   margin: 0px 10px 0px 0px;
+}
+
+.logo_place_footer {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
 }
