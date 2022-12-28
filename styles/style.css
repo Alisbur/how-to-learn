@@ -308,8 +308,6 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-
-  position: relative;
 }
 
 .footer__column_content_copyright {
@@ -366,11 +364,4 @@
   width: 16px;
   height: 16px;
   margin: 0px 10px 0px 0px;
-}
-
-.logo_place_footer {
-  position: absolute;
-  top:0;
-  left:0;
-  z-index: 1;
 }
