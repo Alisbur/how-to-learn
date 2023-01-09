@@ -1,0 +1,8 @@
+.link-transperency {
+  opacity: 100%;
+  transition: opacity 0.4s;
+}
+
+.link-transperency:hover {
+  opacity: 50%;
+}
