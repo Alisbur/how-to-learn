@@ -12,6 +12,21 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 
+/* СЕКЦИЯ TECHNIQUES */
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__title/cards__title.css);
+
+/* СЕКЦИЯ VIDEO */
+@import url(../blocks/video/video.css);
+@import url(../blocks/iframe-box/iframe-box.css);
+
+/* СЕКЦИЯ OAKLEY */
+@import url(../blocks/oakley/oakley.css);
+
 /* СЕКЦИЯ DESCRIPTION */
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
