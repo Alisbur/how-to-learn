@@ -12,6 +12,9 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 
+/* CONTENT */
+@import url(../blocks/content/content.css);
+
 /* СЕКЦИЯ TECHNIQUES */
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/cards/cards.css);
